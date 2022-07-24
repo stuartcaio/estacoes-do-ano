@@ -1,0 +1,35 @@
+:root{
+    --fundo-inverno: url('https://static.escolakids.uol.com.br/2020/07/frio-extremo.jpg');
+    --fundo-verao: url('https://s.calendarr.com/upload/datas/ve/ra/verao_c.jpg?auto_optimize=low&width=640')
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 7.5rem;
+
+    width: 100%;
+    height: 100%;
+}
+
+.principal{
+    width: 50%;
+    height: 50vh;
+
+    
+}
+
+.inverno{
+    background: var(--fundo-inverno) no-repeat;
+
+    background-size: cover;
+}
+
+.verao{
+    background: var(--fundo-verao);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
