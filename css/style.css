@@ -28,8 +28,7 @@ body{
 }
 
 .verao{
-    background: var(--fundo-verao);
-    background-repeat: no-repeat;
+    background: var(--fundo-verao) no-repeat;
 
     background-size: cover;
 }
